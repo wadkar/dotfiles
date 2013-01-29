@@ -23,18 +23,18 @@ function unlink_file {
 if [ "$1" = "vim" ]; then
     for i in _vim*
     do
-       link_file $i
+       link_file "$i"
     done
 elif [ "$1" = "restore" ]; then
     for i in _*
     do
-        unlink_file $i
+        unlink_file "$i"
     done
     exit
 else
     for i in _*
     do
-        link_file $i
+        link_file "$i"
     done
 fi
 
