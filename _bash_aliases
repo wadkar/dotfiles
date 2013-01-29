@@ -1,0 +1,12 @@
+# beware of blind overwriting
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+#Git aliases taken from Git Immersion Tutorial
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit -v ' #adding -v
+alias gd='git diff '
+alias ghist='git hist '
